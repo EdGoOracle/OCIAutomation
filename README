@@ -1,0 +1,20 @@
+# OCI-AutoScale
+
+Welcome to the Scheduled Auto Scaling Script for OCI (Oracle Cloud Infrastructure).
+
+The **AutoScaleALL** script: A single Auto Scaling script for all OCI resources that support scaling up/down and power on/off operations.
+
+# Supported services
+- Compute VMs: On/Off
+- Instance Pools: On/Off and Scaling (# of instances)
+- Database VMs: On/Off
+- Database Baremetal Servers: Scaling (# of CPUs)
+- Database Exadata CS: Scaling (# of CPUs)
+- Autonomous Databases: On/Off and Scaling (# of CPUs)
+- Oracle Digital Assistant: On/Off
+- Oracle Analytics Cloud: On/Off and Scaling (between 2-8 oCPU and 10-12 oCPU)
+- Oracle Integration Service: On/Off
+- Load Balancer: Scaling (between 10, 100, 400, 8000 Mbps)*
+
+# How to use
+Please do refer to the PDF available to see how the scripts can be used and implemented.
